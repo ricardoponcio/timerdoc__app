@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "TimerDoc",
+    "slug": "timerdoc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/TD-FULL-V1-FIT-WO-BG-FAVICO-PADDING.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/TD-FULL-V1-FIT-WO-BG-SPLASH.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/TD-FULL-V1-FIT-WO-BG-FAVICO-PADDING.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "br.com.timerdoc"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/TD-FULL-V1-FIT-WO-BG-FAVICO-PADDING.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
+  }
+}
