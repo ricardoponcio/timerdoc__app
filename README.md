@@ -89,14 +89,14 @@ timerdoc__app/
 - `npm run build` – Build app with EAS
 - `npm run test` – Run tests
 
-See all scripts in [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__app/package.json).
+See all scripts in [package.json](./package.json).
 
 ---
 
 ## Configuration
 
-- App configuration in [`app.json`](c:/DEV/Pessoal/Timerdoc/timerdoc__app/app.json)
-- TypeScript config in [`tsconfig.json`](c:/DEV/Pessoal/Timerdoc/timerdoc__app/tsconfig.json)
+- App configuration in [`app.json`](./app.json)
+- TypeScript config in [`tsconfig.json`](./tsconfig.json)
 - Environment variables via `.env` (if used)
 
 ---
@@ -119,4 +119,8 @@ Pull requests are welcome! Please lint and test your code before submitting.
 
 ## License
 
-This project is **UNLICENSED**. See [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__app/package.json)
+This project is **UNLICENSED**. See [package.json](./package.json)
+
+## References
+
+- [Main Project](https://github.com/ricardoponcio/TimerDoc)
